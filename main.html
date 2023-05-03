@@ -17,7 +17,7 @@
         <div class="mb-3">
           <label for="first-name-input" class="form-label">First Name</label>
           <input type="text" class="form-control" placeholder="First name" id="first-name-input" aria-label="First name" required>
-          <div id="emailHelp" class="form-text">First name required!</div>
+          <div id="emailHelp" class="form-text invalid-feedback">First name required!</div>
 
         </div>
       </div>
@@ -25,7 +25,7 @@
         <div class="mb-3">
           <label for="last-name-input" class="form-label">Last Name</label>
           <input type="text" class="form-control" placeholder="Last name" id="last-name-input" aria-label="Last name" required>
-          <div id="emailHelp" class="form-text">Last name required!</div>
+          <div id="emailHelp" class="form-text invalid-feedback">Last name required!</div>
 
         </div>
       </div>
@@ -33,7 +33,7 @@
         <div class="mb-3">
           <label for="email-input" class="form-label">Email Address</label>
           <input type="email" class="form-control" id="email-input" placeholder="xyz@abc.com" itemid="email-input" aria-describedby="emailHelp" required>
-          <div id="emailHelp" class="form-text">Email required!</div>
+          <div id="emailHelp" class="form-text invalid-feedback">Email required!</div>
 
         </div>
       </div>
@@ -44,7 +44,7 @@
         <div class="mb-3">
           <label for="college-input" class="form-label">College</label>
           <input type="text" class="form-control" placeholder="First name" id="college-input" aria-label="First name" required>
-          <div id="emailHelp" class="form-text">Please provide a valid college</div>
+          <div id="emailHelp" class="form-text invalid-feedback">Please provide a valid college</div>
 
         </div>
       </div>
@@ -57,13 +57,13 @@
           <option>2022</option>
           <option>2023</option>
         </select>
-        <div id="emailHelp" class="form-text">Please select a valid graduation year</div>
+        <div id="emailHelp" class="form-text invalid-feedback">Please select a valid graduation year</div>
       </div>
       <div class="col-3">
         <div class="mb-3">
           <label for="roll-no-input" class="form-label">Roll No.</label>
           <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="roll-no-input" aria-required="First name required" required>
-          <div id="emailHelp" class="form-text">Please provide a valid Roll no.</div>
+          <div id="emailHelp" class="form-text invalid-feedback">Please provide a valid Roll no.</div>
 
         </div>
       </div>
@@ -72,7 +72,7 @@
     <div class="mb-3 form-check">
       <input type="checkbox" class="form-check-input" id="conditions-checkbox" required>
       <label class="form-check-label" for="conditions-checkbox">Agree to terms and conditions</label>
-      <div id="emailHelp" class="form-text">You must agree before submitting</div>
+      <div id="emailHelp" class="form-text invalid-feedback">You must agree before submitting</div>
     </div>
     <button type="submit" class="btn btn-primary" required>Submit</button>
   </form>
